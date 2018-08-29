@@ -1,0 +1,7 @@
+I am working on a game to learn JavaScript and I have some problems:
+
+1.I want to remove 1 point from the player score when the player had missed the zombie. I tried something with a score function which is called after the settimeout () but it doesn't work.
+
+2.I want to add a sound effect when the player click. This sound effect will change (as the weapon's image) when the score reaches 7 and then 3. I can't manage to achieve both, and now the game is broken (can't start it).
+
+3.With the zombie popup function. I want that a zombie can't appear in the same frame as the former one (because when it happens the player is not really aware it is a new zombie). I also want to prevent that more than one zombie is on screen (which is happening after several seconds).

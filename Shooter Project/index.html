@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Defend the Windows</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="score">
+        <div class="score__block">
+            <p class="score__counter">Health : <span class="score__counter__number">10</span></p>
+        </div>
+        
+        <div class="score__block">
+            <p class="score__survive">Time you survived : <span class="score__survive__minutes">0</span>:<span class="score__survive__seconds">0</span>  </p>
+        </div>
+        
+        <div class="score__block">
+            <input class="score__start" id="score-button" type="button" value="Start Game">
+        </div>
+
+        <div class="weapon">
+            <img id="weapon__image" src="images/RickRevolver.png">
+        </div>
+        <audio id="sound0" src="sound/WalkingDead.mp3" type="audio/mp3" autostart="false"></audio>
+        <audio id="sound1" src="sound/magnum.mp3" type="audio/mp3" autostart="false" onclick="shoot()"></audio>
+        <audio id="sound2" src="sound/crossbow.mp3" type="audio/mp3" autostart="false"></audio>
+        <audio id="sound3" src="sound/baseball-bat.mp3" type="audio/mp3" autostart="false"></audio>
+
+    </header>
+
+    <section class="gameboard">
+
+        <h1 class="gameboard__title">Defend the Windows</h1>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie0"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie1"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie2"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie3"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie4"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie5"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie6"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie7"></div>
+        </div>
+
+        <div class="gameboard__frame">
+            <div class="gameboard__bottom"></div>
+            <div class="gameboard__zombie" id="zombie8"></div>
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
