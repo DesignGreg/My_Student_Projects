@@ -1,15 +1,3 @@
-/* A FAIRE */
-
-// Bouton Start Game, fin de partie = "Try Again", et relance une partie. Clignote comme le temps survécu
-
-
-
-
-
-
-
-
-
 window.onload = build;
 
 /* Variables*/
@@ -28,21 +16,6 @@ function build() {
         zombie[x].addEventListener('click', hitzombie, false);
     }
 }
-
-/*
-var z0 = document.getElementById('zombie0');
-var z1 = document.getElementById('zombie1');
-var z2 = document.getElementById('zombie2');
-var z3 = document.getElementById('zombie3');
-var z4 = document.getElementById('zombie4');
-var z5 = document.getElementById('zombie5');
-var z6 = document.getElementById('zombie6');
-var z7 = document.getElementById('zombie7');
-var z8 = document.getElementById('zombie8');
-var z9 = document.getElementById('zombie9');
-
-var zombies = [z0, z1, z2, z3, z4, z5, z6, z7, z8, z9,];
-*/
 
 function popup() {
     kill = true;
